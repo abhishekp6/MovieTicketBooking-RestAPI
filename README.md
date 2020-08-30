@@ -1,20 +1,24 @@
   # Movie Ticket Booking System - RestAPI
     
-  ##The Rest API supports following business cases:
-    ##● An endpoint to book a ticket using a user’s name, phone number, and timings.  
-    ##● An endpoint to update a ticket timing.
-    ##● An endpoint to view all the tickets for a particular time.
-    ##● An endpoint to delete a particular ticket.
-    ##● An endpoint to view the user’s details based on the ticket id.
+
+    
+### Description
+
+The Rest API supports following business cases
+    - An endpoint to book a ticket using a user’s name, phone number, and timings  
+    - An endpoint to update a ticket timing
+    - An endpoint to view all the tickets for a particular time
+    - An endpoint to delete a particular ticket
+    - An endpoint to view the user’s details based on the ticket id
 
 ### Prerequisites
 
 What things you need to install the software and how to install them
--> Code Editor(Visual Studio Preferred)
--> Python 3+ installed globally on the system
--> Pip installed
--> Virtual environment installed
--> Ubuntu 18.04
+- Code Editor(Visual Studio Preferred)</br>
+- Python 3+ installed globally on the system
+- Pip installed
+- Virtual environment installed
+- Ubuntu 18.04
  
 ### Installing
 
@@ -56,11 +60,11 @@ You can now access the file api service on your browser by using
 
 
 ## Testing Screenshots of Postman (DEMO)
-![Optional Text](../master/static/1.png)
-![Optional Text](../master/static/2.png)
-![Optional Text](../master/static/3.png)
-![Optional Text](../master/static/4.png)
-![Optional Text](../master/static/5.png)
+![](https://github.com/abhishekp6/MovieTicketBooking-RestAPI/blob/master/static/1%20(copy).png)
+![](https://github.com/abhishekp6/MovieTicketBooking-RestAPI/blob/master/static/2%20(copy).png)
+![](https://github.com/abhishekp6/MovieTicketBooking-RestAPI/blob/master/static/3%20(copy).png)
+![](https://github.com/abhishekp6/MovieTicketBooking-RestAPI/blob/master/static/4%20(copy).png)
+![](https://github.com/abhishekp6/MovieTicketBooking-RestAPI/blob/master/static/5%20(copy).png)
 
 ## Built With
 
