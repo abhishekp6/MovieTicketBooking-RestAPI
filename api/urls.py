@@ -9,6 +9,7 @@ urlpatterns = [
     path('updatetime/<str:pk>/', views.updateTicketTime.as_view()),
     path('viewticket/<str:pk>/', views.viewTicket.as_view()),
     path('deleteticket/<str:pk>/', views.deleteTicket.as_view()),
+    path('viewuser/<str:pk>/', views.viewUser.as_view()),
     
 
 ]

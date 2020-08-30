@@ -10,6 +10,7 @@ from .models import Ticket
 from .serializers import TicketSerializer
 from .serializers import TicketTimeUpdateSerializer
 from .serializers import TicketViewSerializer
+from .serializers import TicketUserSerializer
 
 
 class ticketlist(APIView):
@@ -44,3 +45,9 @@ class deleteTicket(APIView):
         ticket4 =  Ticket.objects.get(ticket_id=pk)
         ticket4.delete()
         return Response("Ticket Deleted")
+
+class viewUser(APIView):
+    def get(self,request,pk):
+        ticket5 =  Ticket.objects.get(ticket_id=pk)
+        serializer = TicketUserSerializer(ticket5,many=False)
+        return Response(serializer.data)
