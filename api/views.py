@@ -38,3 +38,9 @@ class viewTicket(APIView):
         ticket3 = Ticket.objects.all().filter(start_time=pk)
         serializer = TicketViewSerializer(instance=ticket3, many=True)
         return Response(serializer.data)       
+
+class deleteTicket(APIView):
+    def delete(self, request, pk):
+        ticket4 =  Ticket.objects.get(ticket_id=pk)
+        ticket4.delete()
+        return Response("Ticket Deleted")

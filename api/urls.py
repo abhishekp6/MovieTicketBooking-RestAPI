@@ -8,5 +8,7 @@ urlpatterns = [
     path('bookticket/', views.bookTicket.as_view()),
     path('updatetime/<str:pk>/', views.updateTicketTime.as_view()),
     path('viewticket/<str:pk>/', views.viewTicket.as_view()),
+    path('deleteticket/<str:pk>/', views.deleteTicket.as_view()),
+    
 
 ]
