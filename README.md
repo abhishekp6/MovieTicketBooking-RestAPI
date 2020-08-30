@@ -1,11 +1,11 @@
   # Movie Ticket Booking System - RestAPI
     
-  The Rest API supports following business cases:
-    ● An endpoint to book a ticket using a user’s name, phone number, and timings.  
-    ● An endpoint to update a ticket timing.
-    ● An endpoint to view all the tickets for a particular time.
-    ● An endpoint to delete a particular ticket.
-    ● An endpoint to view the user’s details based on the ticket id.
+  ##The Rest API supports following business cases:
+    ##● An endpoint to book a ticket using a user’s name, phone number, and timings.  
+    ##● An endpoint to update a ticket timing.
+    ##● An endpoint to view all the tickets for a particular time.
+    ##● An endpoint to delete a particular ticket.
+    ##● An endpoint to view the user’s details based on the ticket id.
 
 ### Prerequisites
 
@@ -64,8 +64,8 @@ You can now access the file api service on your browser by using
 
 ## Built With
 
-* [Dropwizard](https://docs.djangoproject.com/en/3.1/) - The web framework used
-* [Maven](https://www.django-rest-framework.org/) - The Web framework used 
+* [Django](https://docs.djangoproject.com/en/3.1/) - The web framework used
+* [Django REST framework](https://www.django-rest-framework.org/) - The Web framework used 
 
 ## Authors
 
