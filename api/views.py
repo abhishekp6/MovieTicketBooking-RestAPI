@@ -9,6 +9,7 @@ from rest_framework import status
 from .models import Ticket
 from .serializers import TicketSerializer
 from .serializers import TicketTimeUpdateSerializer
+from .serializers import TicketViewSerializer
 
 
 class ticketlist(APIView):
@@ -31,3 +32,9 @@ class updateTicketTime(APIView):
         if serializer.is_valid():
             serializer.save()
         return Response(serializer.data)
+
+class viewTicket(APIView):
+    def get(self,request, pk):
+        ticket3 = Ticket.objects.all().filter(start_time=pk)
+        serializer = TicketViewSerializer(instance=ticket3, many=True)
+        return Response(serializer.data)       
